@@ -29,3 +29,12 @@
 .view-speakers .field-name-body {
   margin-left: 180px;
 }
+
+/** custom blocks **/ 
+#block-gtranslate-gtranslate {
+  float: right;
+}
+
+#block-block-1 {
+  float: left;
+}

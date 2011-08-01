@@ -531,7 +531,7 @@ h1#site-name {
 
 #main {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   background: white;
 }
 
@@ -930,7 +930,7 @@ ul.links {
   margin-top: 20px;
 }
 #footer .block {
-  clear: both;
+/*  clear: both; */ 
 }
 #footer ul,
 #footer li {

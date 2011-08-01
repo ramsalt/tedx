@@ -106,7 +106,7 @@
     <?php
     // getting Full URL to use as Facebook Comment href
     global $base_url; 
-    $this_page = $base_url . "/" . drupal_get_path_alias(); 
+    $this_page = $base_url . url('node/' . $node->nid); 
     if ($node->type == 'blog_post'): 
     ?>
     
