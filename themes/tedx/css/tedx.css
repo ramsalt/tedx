@@ -1,0 +1,31 @@
+.view-speakers .views-row {
+  border-top: solid 3px red;
+  padding: 30px 0;
+}
+
+.view-speakers h2 {
+  float: right;
+  margin: 0;
+}
+
+.view-speakers h2 a {
+  color: red;
+}
+
+.view-speakers .field-name-field-time {
+  color: white;
+  float: right;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background: red;
+  text-align: center;
+}
+
+
+.view-speakers .field-name-field-speaker-pic {
+  float: left;
+}
+
+.view-speakers .field-name-body {
+  margin-left: 180px;
+}
