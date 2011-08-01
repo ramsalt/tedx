@@ -8,11 +8,14 @@ body.overlay {
 .comment .comment-arrow {
   border-color: #ffffff;
 }
-#page,
-#main-wrapper,
-#main-menu-links li a.active,
+
 #main-menu-links li.active-trail a {
-  background: #ffffff;
+  background: red;
+  color: white;
+}
+
+#main-wrapper {
+  background: #474747;
 }
 .tabs ul.primary li a.active {
   background-color: #ffffff;
@@ -22,13 +25,15 @@ body.overlay {
   border-bottom: 1px solid #ffffff;
 }
 #header {
-  background-color: #48a9e4;
-  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-color: white;
+  border-bottom: solid 3px #FF2B06;
+/*  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
   background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
   background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
   background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
   background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  */
 }
 a {
   color: #0071B3;
@@ -46,7 +51,7 @@ a:active {
 }
 #page-wrapper,
 #footer-wrapper {
-  background: #292929;
+  background: #474747;
 }
 .region-header,
 .region-header a,

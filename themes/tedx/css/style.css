@@ -4,6 +4,7 @@
 body {
   line-height: 1.5;
   font-size: 87.5%;
+  font-weight: lighter;
   word-wrap: break-word;
   margin: 0;
   padding: 0;
@@ -106,7 +107,7 @@ body,
 #site-slogan,
 .ui-widget,
 .comment-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #header,
 #footer-wrapper,
@@ -294,7 +295,7 @@ ul.tips {
 }
 #logo {
   float: left; /* LTR */
-  padding: 15px 15px 15px 10px; /* LTR */
+  padding: 25px 15px 0px 10px; /* LTR */
 }
 #name-and-slogan {
   float: left; /* LTR */
@@ -464,9 +465,10 @@ h1#site-name {
   padding: 0.6em 1em 0.4em;
 }
 #main-menu-links {
-  font-size: 0.929em;
+/*  font-size: 0.929em; */ 
   margin: 0;
   padding: 0 15px;
+  float: right;
 }
 #main-menu-links li {
   float: left; /* LTR */
@@ -484,6 +486,7 @@ h1#site-name {
   padding: 0 0.8em;
   text-decoration: none;
   text-shadow: 0 1px #eee;
+/*
   -khtml-border-radius-topleft: 8px;
   -khtml-border-radius-topright: 8px;
   -moz-border-radius-topleft: 8px;
@@ -492,6 +495,7 @@ h1#site-name {
   -webkit-border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+*/ 
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
@@ -528,6 +532,7 @@ h1#site-name {
 #main {
   margin-top: 20px;
   margin-bottom: 40px;
+  background: white;
 }
 
 /* ----------------- Featured ----------------- */
@@ -574,7 +579,7 @@ h1#site-name {
   margin-top: 10px;
 }
 h1#page-title {
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1;
 }
 #content h2 {
@@ -660,7 +665,7 @@ h1#page-title {
 }
 ul.links {
   color: #68696b;
-  font-size: 0.821em;
+/*  font-size: 0.821em; */ 
 }
 .node-unpublished {
   margin: -20px -15px 0;
@@ -915,9 +920,11 @@ ul.links {
 }
 #footer {
   letter-spacing: 0.2px;
+/*  
   margin-top: 30px;
   border-top: 1px solid #555;
   border-color: rgba(255, 255, 255, 0.15);
+*/ 
 }
 #footer .region {
   margin-top: 20px;

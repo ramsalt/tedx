@@ -1,11 +1,12 @@
 
 name = TedX
-description = Fork of Bartik for TedX Tromsø
+description = Fork of Bartik for TedX 
 package = Core
 version = VERSION
 core = 7.x
 
 stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/tedx.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
