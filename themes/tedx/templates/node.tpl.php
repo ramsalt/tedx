@@ -102,7 +102,15 @@
       hide($content['links']);
       print render($content);
     ?>
-  </div>
+    
+    <?php
+    // getting Full URL to use as Facebook Comment href
+      global $base_url; 
+      $this_page = $base_url . "/" . drupal_get_path_alias(); 
+    ?>
+
+    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<?php print $this_page;?>" num_posts="4" width="580"></fb:comments>
+    </div>
 
   <?php
     // Remove the "Add new comment" link on the teaser page or if the comment
