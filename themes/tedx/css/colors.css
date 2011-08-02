@@ -9,7 +9,8 @@ body.overlay {
   border-color: #ffffff;
 }
 
-#main-menu-links li.active-trail a {
+#main-menu-links li.active-trail a,
+#main-menu-links li.active a {
   background: red;
   color: white;
 }

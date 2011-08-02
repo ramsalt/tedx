@@ -12,7 +12,8 @@
   color: red;
 }
 
-.view-speakers .field-name-field-time {
+.view-speakers .field-name-field-time, 
+.node-type-speaker .field-name-field-time {
   color: white;
   float: right;
   padding: 5px 10px;
@@ -22,11 +23,13 @@
 }
 
 
-.view-speakers .field-name-field-speaker-pic {
+.view-speakers .field-name-field-speaker-pic,
+.node-type-speaker .field-name-field-speaker-pic {
   float: left;
 }
 
-.view-speakers .field-name-body {
+.view-speakers .field-name-body,
+.node-type-speaker .field-name-body {
   margin-left: 180px;
 }
 

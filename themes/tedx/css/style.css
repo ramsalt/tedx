@@ -485,8 +485,7 @@ h1#site-name {
   line-height: 2.4em;
   padding: 0 0.8em;
   text-decoration: none;
-  text-shadow: 0 1px #eee;
-/*
+/*  text-shadow: 0 1px #eee; 
   -khtml-border-radius-topleft: 8px;
   -khtml-border-radius-topright: 8px;
   -moz-border-radius-topleft: 8px;
