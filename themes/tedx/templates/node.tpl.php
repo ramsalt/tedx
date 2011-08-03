@@ -102,25 +102,29 @@
       hide($content['links']);
       print render($content);
     ?>
+
+    <?php
+    // getting Full URL to use as Facebook Comment href and Addthis target
+    global $base_url; 
+    $this_page = $base_url . url('node/' . $node->nid); 
+    ?>
     
         <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style" style="float: right">
-          <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-          <a class="addthis_button_tweet" tw:via="TEDxTromso"></a>
-          <a class="addthis_button_google_plusone"></a>
+          <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="<?php print $this_page; ?>"></a>
+          <a class="addthis_button_tweet" tw:via="TEDxTromso" addthis:url="<?php print $this_page; ?>" addthis:title="<?php print $node->title; ?>"></a>
+          <a class="addthis_button_google_plusone" addthis:url="<?php print $this_page; ?>"></a>
         </div>
         <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
         <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dad53b741234e4e"></script>
         <!-- AddThis Button END -->
     
     <?php
-    // getting Full URL to use as Facebook Comment href
-    global $base_url; 
-    $this_page = $base_url . url('node/' . $node->nid); 
+    // add FB comments on blob posts. 
     if ($node->type == 'blog_post'): 
     ?>
     
-    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<?php print $this_page;?>" num_posts="4" width="580"></fb:comments>
+    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<?php print $this_page;?>" num_posts="4" width="590"></fb:comments>
     
     <?php endif; ?>
   </div>
