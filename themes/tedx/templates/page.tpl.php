@@ -157,7 +157,11 @@
     <?php endif; ?>
 
   </div></div> <!-- /.section, /#header -->
-
+  
+  <div class="headerpicture">
+    &nbsp;
+  </div>
+  
   <?php if ($messages): ?>
     <div id="messages"><div class="section clearfix">
       <?php print $messages; ?>

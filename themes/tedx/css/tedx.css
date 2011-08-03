@@ -42,3 +42,10 @@
 #block-block-1 {
   float: left;
 }
+
+.headerpicture {
+  background: url(../images/mountains.jpeg);
+  height: 300px;
+  background-repeat: repeat-y;
+  border-bottom: solid 3px #FF2B06;
+}
