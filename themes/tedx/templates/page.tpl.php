@@ -160,7 +160,7 @@
   
   <div class="headerpicture">
     <div class="header-inner">
-      <span class="date">Verdensteateret, Tromsø<br>25. august 2011</span>
+      <span class="date">Verdensteateret, Tromsø<br>August 25, 2011</span>
     </div>
   </div>
   
