@@ -159,7 +159,9 @@
   </div></div> <!-- /.section, /#header -->
   
   <div class="headerpicture">
-    &nbsp;
+    <div class="header-inner">
+      <span class="date">Verdensteateret, Tromsø<br>25. august 2011</span>
+    </div>
   </div>
   
   <?php if ($messages): ?>

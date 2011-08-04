@@ -49,3 +49,27 @@
   background-repeat: repeat-y;
   border-bottom: solid 3px #FF2B06;
 }
+
+.header-inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 180px 0 0 0;
+  text-align: right;
+}
+
+.header-inner .place {
+  float: left;
+}
+
+.header-inner .date {
+  float: right;
+}
+
+.header-inner .place, 
+.header-inner .date {
+  background: #474747;
+  color: white;
+  font-size: 200%;
+  opacity: 0.9;
+  padding: 10px 30px;
+}
