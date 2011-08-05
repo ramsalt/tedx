@@ -4,7 +4,7 @@
 body {
   line-height: 1.5;
   font-size: 87.5%;
-  font-weight: lighter;
+/*  font-weight: lighter; */ 
   word-wrap: break-word;
   margin: 0;
   padding: 0;
